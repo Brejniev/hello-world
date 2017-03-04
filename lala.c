@@ -15,7 +15,14 @@ pid_t safeFork() {
 int main( int argc, char *argv[], char *envp[] ) {
 	
 	pid_t p;
-	int i=0;
+
+	if( argc>1  ) {
+		char *nb = argv[1];
+		int n = atoi(nb);
+		for( int i=n ; i>0 ; i-- ) {
+			printf( "\t%d\n", i );
+		}
+	}
 
 	p = safeFork();
 	if( p==0 ) {
