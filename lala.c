@@ -17,7 +17,7 @@ int main( int argc, char *argv[], char *envp[] ) {
 	pid_t p;
 	int i=0;
 
-	p = safefork();
+	p = safeFork();
 	if( p==0 ) {
 		char *echo = "/usr/bin/echo";
 		char *echoArgs[] = { echo, "Hello ", NULL };
