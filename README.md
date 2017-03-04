@@ -4,7 +4,7 @@ test and training repository
 This is an alternative branch of the project 'hello-world' which is totally useless ... :)
 But this doesn't matter because it's just a test project.
 
-Salut les compagnons ! (master)
+Hello la compagnie ! (branch02)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
